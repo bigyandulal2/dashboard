@@ -1,6 +1,6 @@
 import Data from "../Data/data.json";
-import IconUp from "./images/icon-up.svg";
-import Icondown from "./images/icon-down.svg";
+import IconUp from "/images/icon-up.svg";
+import Icondown from "/images/icon-down.svg";
 export default function UserProfile({ toggle }) {
   return (
     <div className="cards">
