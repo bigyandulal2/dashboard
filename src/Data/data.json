@@ -4,7 +4,7 @@
     "media": "facebook",
     "Followers": "1987",
     "type": "Followers",
-    "icon": "./images/icon-facebook.svg",
+    "icon": "../../images/icon-facebook.svg",
     "todaysubscriber": "12",
     "increase": true
   },
@@ -13,7 +13,7 @@
     "media": "twitter",
     "Followers": "1044",
     "type": "Followers",
-    "icon": "./images/icon-twitter.svg",
+    "icon": "../../images/icon-twitter.svg",
     "todaysubscriber": "99",
     "increase": true
   },
@@ -22,7 +22,7 @@
     "media": "instagram",
     "Followers": "11k",
     "type": "Followers",
-    "icon": "./images/icon-instagram.svg",
+    "icon": "../../images/icon-instagram.svg",
     "todaysubscriber": "1099",
     "increase": true
   },
@@ -31,7 +31,7 @@
     "media": "youtube",
     "Followers": "8239",
     "type": "Subscribers",
-    "icon": "./images/icon-youtube.svg",
+    "icon": "../../images/icon-youtube.svg",
     "todaysubscriber": "144",
     "increase": false
   }
