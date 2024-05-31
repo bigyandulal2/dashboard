@@ -1,0 +1,52 @@
+// <section className="overview">
+// {useroverview.map((item, index) => {
+//   return (
+//     <card className="overview_card">
+//       <aside className="overview_detail1">
+//         <span>{item.title}</span>
+//         <img src={item.icon} alt="icon" />
+//       </aside>
+//       <aside className="overview_detail2">
+//         <span>{item.value}</span>
+//         <img src={item.increase ? IconUp : Icondown} alt="icon" />
+//       </aside>
+//     </card>
+//   );
+// })}
+// </section>
+.overview {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(230px, 1fr));
+  gap: $gap;
+  &_card {
+    @include card;
+    padding: $padding;
+    @include flex($direction: column, $gap: $gap);
+    &:hover {
+      cursor: pointer;
+      opacity: 0.8;
+    }
+  }
+  &_detail1 {
+    @include flex($justify: space-between, $align: center);
+    & span {
+      font-size: 2rem;
+      // color: map-get($dark, text-white);
+    }
+  }
+  &_detail2 {
+    @include flex($justify: space-between, $align: center);
+    & span {
+      font-size: 3rem;
+      // color: map-get($dark, text-white);
+    }
+    & aside {
+      justify-self: end;
+      @include flex($align: center, $gap: 0.6rem);
+      align-self: center;
+      & strong {
+        font-size: 1.4rem;
+      }
+    }
+  }
+}

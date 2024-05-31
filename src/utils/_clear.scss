@@ -1,0 +1,45 @@
+@import url("https://fonts.googleapis.com/css2?family=Inter:wght@100..900&display=swap");
+* {
+  margin: 0;
+  padding: 0;
+}
+*::before,
+*,
+*::after {
+  box-sizing: border-box;
+}
+/* Hide the default scrollbar */
+body::-webkit-scrollbar {
+  width: 12px; /* Set the width of the scrollbar */
+}
+
+/* Track */
+body::-webkit-scrollbar-track {
+  background: #f1f1f1; /* Light grey background */
+  border-radius: 10px;
+}
+
+/* Handle */
+body::-webkit-scrollbar-thumb {
+  background: #c1c1c1; /* Grey handle */
+  border-radius: 10px;
+}
+
+/* Handle on hover */
+body::-webkit-scrollbar-thumb:hover {
+  background: #a8a8a8; /* Darker grey on hover */
+}
+
+h1,
+h2,
+h3,
+h4 {
+  margin: 0;
+}
+
+html {
+  font-size: 62.5%;
+}
+body {
+  font-family: "Inter", sans-serif;
+}

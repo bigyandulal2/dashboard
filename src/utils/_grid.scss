@@ -1,0 +1,8 @@
+.grid {
+  display: grid;
+  gap: 2rem;
+  &_item2 {
+    color: white;
+    font-size: 2rem;
+  }
+}

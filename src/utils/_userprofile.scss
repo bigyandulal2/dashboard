@@ -1,0 +1,41 @@
+.cards {
+  @include flex($gap: $gap, $wrap: wrap-reverse);
+
+  &_card {
+    @include card;
+    @include sm {
+      width: 100%;
+      flex: none;
+    }
+    &:hover {
+      cursor: pointer;
+      opacity: 0.6;
+    }
+  }
+  .card {
+    @include flex($direction: column, $align: center, $gap: 1.6rem);
+    padding: $padding * 2;
+    &_item {
+      @include flex($align: center, $gap: 0.6rem);
+
+      & span {
+        font-size: 1.4rem;
+      }
+    }
+
+    &_followers {
+      // color: map-get($dark, text-white);
+      font-size: 5rem;
+    }
+    &_type {
+      font-size: 1.5rem;
+      letter-spacing: 6px;
+    }
+    &_logo {
+      @include flex($align: center, $gap: 0.6rem);
+      & span {
+        font-size: 1.4rem;
+      }
+    }
+  }
+}
