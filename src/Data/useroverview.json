@@ -4,19 +4,19 @@
     "value": 87,
     "percentageChange": "3%",
     "increase": true,
-    "icon": "./images/icon-facebook.svg"
+    "icon": "../../images/icon-facebook.svg"
   },
   {
     "title": "Likes",
     "value": 52,
     "percentageChange": "2%",
-    "icon": "./images/icon-facebook.svg",
+    "icon": "../../images/icon-facebook.svg",
     "increase": false
   },
   {
     "title": "Likes",
     "value": 5462,
-    "icon": "./images/icon-instagram.svg",
+    "icon": "../../images/icon-instagram.svg",
     "percentageChange": "2257%",
     "increase": true
   },
@@ -25,34 +25,34 @@
     "value": "52k",
     "percentageChange": "1375%",
     "increase": true,
-    "icon": "./images/icon-instagram.svg"
+    "icon": "../../images/icon-instagram.svg"
   },
   {
     "title": "Retweets",
     "value": 117,
     "percentageChange": "303%",
     "increase": true,
-    "icon": "./images/icon-twitter.svg"
+    "icon": "../../images/icon-twitter.svg"
   },
   {
     "title": "Likes",
     "value": 507,
     "percentageChange": "553%",
     "increase": true,
-    "icon": "./images/icon-twitter.svg"
+    "icon": "../../images/icon-twitter.svg"
   },
   {
     "title": "Likes",
     "value": 107,
     "percentageChange": "19%",
-    "icon": "./images/icon-youtube.svg",
+    "icon": "../../images/icon-youtube.svg",
     "increase": false
   },
   {
     "title": "Total Views",
     "value": 1407,
     "percentageChange": "12%",
-    "icon": "./images/icon-youtube.svg",
+    "icon": "../../images/icon-youtube.svg",
     "increase": false
   }
 ]
