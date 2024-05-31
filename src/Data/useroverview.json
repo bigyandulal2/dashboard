@@ -52,7 +52,7 @@
     "title": "Total Views",
     "value": 1407,
     "percentageChange": "12%",
-    "icon": "/images/icon-youtube.svg",
+    "icon": "./images/icon-youtube.svg",
     "increase": false
   }
 ]
