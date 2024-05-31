@@ -9,7 +9,7 @@ export default function Navbar({ toggle, setToggle }) {
           Social Media Dashboard
         </h3>
         <aside>
-          <span>Dark Mode</span>
+          <span  className={toggle ? "  text-dark-text-white" : "text-light-text-dark"}>Dark Mode</span>
           {/* add a toggle element here */}
           <div className="navbar_navlist-toggle">
             <label className="switch">
