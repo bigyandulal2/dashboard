@@ -1,6 +1,6 @@
 import useroverview from "../Data/useroverview.json";
-import IconUp from "./images/icon-up.svg";
-import Icondown from "./images/icon-down.svg";
+import IconUp from "/images/icon-up.svg";
+import Icondown from "/images/icon-down.svg";
 export default function UserOverview({ toggle }) {
   return (
     <section className="overview">
