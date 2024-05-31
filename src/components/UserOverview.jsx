@@ -1,11 +1,6 @@
 import useroverview from "../Data/useroverview.json";
-import IconUp from "/images/icon-up.svg";
-import Icondown from "/images/icon-down.svg";
-// "title": "Page Views",
-// "value": 87,
-// "percentageChange": "3%",
-// "increase": true,
-// "icon": "/images/icon-facebook.svg"
+import IconUp from "./images/icon-up.svg";
+import Icondown from "./images/icon-down.svg";
 export default function UserOverview({ toggle }) {
   return (
     <section className="overview">
